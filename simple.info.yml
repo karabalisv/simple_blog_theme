@@ -1,0 +1,21 @@
+core: 8.x
+type: theme
+base theme: false
+name: 'Simple Blog Theme'
+description: 'Simple Blog Theme for Drupal 8 Created @karabaliv visit project at https://github.com/karabalisv/simple_blog_theme'
+regions:
+  menu_left_region            :   'Menu Left Region'
+  menu_center_region          :   'Menu Center Region'
+  menu_right_region           :   'Menu Right Region'
+  full_region                 :   'Full Widht Region Before Content'
+  help                        :   'Help'
+  highlight                   :   'Highlight'
+  page_title                  :   'Page Title'
+  content                     :   'Content'
+  right_sidebar               :   'Sidebar'
+  footer_full_region          :   'Full Widht Region After Content'
+  footer_one                  :   'Footer One Region'
+  footer_two                  :   'Footer Two Region'
+  footer_three                :   'Footer Third Region'
+libraries:
+  - 'simple/global-styling'
